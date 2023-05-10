@@ -1,0 +1,74 @@
+[
+  {
+    "img": "/IMG/ap-code-1159.png",
+    "title": "Audemars Piguet - Code 1159",
+    "price": "$106,000",
+    "description": "An astronomical watch par excellence, this Perpetual Calendar features a blue aventurine dial and subdials recalling a star-lit sky, and an 18-carat pink gold case."
+  },
+  {
+    "img": "/IMG/patek-philippe-golden-ellipse.png",
+    "title": "Patek Philippe - Golden Ellipse",
+    "price": "$39,300",
+    "description": "To celebrate the 50th anniversary of the legendary Golden Ellipse, Patek Philippe is presenting a new “grande-taille” rose-gold version of this icon, adorned with an ebony black sunburst dial whose applied hour markers and slender hands are also in rose gold."
+  },
+  {
+    "img": "/IMG/rolex_cosmograph_daytona.png",
+    "title": "Rolex - Cosmograph Daytona",
+    "price": "$89,700",
+    "description": "Launched in 1963, the Cosmograph Daytona has long since transcended its status in the world of watchmaking to become an icon."
+  },
+  {
+    "img": "/IMG/ap-royal-oak-all-gold.png",
+    "title": "Audemars Piguet - Royal Oak (Gold)",
+    "price": "$215,000",
+    "description": "This Japan-dedicated 41 mm Chronograph marries an 18-carat yellow gold case shimmering with Frosted Gold with a yellow-gold-toned \"Grande Tapisserie\" dial accented by black counters."
+  },
+  {
+    "img": "/IMG/patek-philippe-gondolo.png",
+    "title": "Patek Philippe - Gondolo",
+    "price": "$81,200",
+    "description": "The Gondolo Serata, a jewelry watch radiating unique style and timeless elegance, returns to the current Patek Philippe collection in a new, slightly larger rose gold version."
+  },
+  {
+    "img": "/IMG/rolex_day_date_36.png",
+    "title": "Rolex - Day Date: 36",
+    "price": "$55,000",
+    "description": "The Rolex Day-Date 36 is a prestigious wristwatch model manufactured by Rolex. It is known for its classic and elegant design and is often referred to as the \"President's watch\" due to its popularity among world leaders, including several U.S. presidents. The \"36\" in the name refers to the diameter of the case, which measures 36 millimeters."
+  },
+  {
+    "img": "/IMG/ap-royal-oak-offshore.png",
+    "title": "Audemars Piguet - Royal Oak (Offshore)",
+    "price": "Price on Request",
+    "description": "This white gold 43 mm Royal Oak Offshore is fully paved with brilliant-cut diamonds and contrasted with black accents. It is also fitted with an interchangeable bracelet entirely set with diamonds."
+  },
+  {
+    "img": "/IMG/patek-philippe-twenty-4-rose-gold.png",
+    "title": "Patek Philippe - Twenty 4 Automatic (Rose Gold)",
+    "price": "$387,700",
+    "description": "Patek Philippe's latest ladies' watch, the Twenty 4 Automatic, now presents its timeless elegance in a rose gold Haute"
+  },
+  {
+    "img": "/IMG/rolex_day_date_40.png",
+    "title": "Rolex - Day Date: 40",
+    "price": "$121,400",
+    "description": "The Day Date 40 is a renowned wristwatch model manufactured by Rolex. It is an upgraded version of the classic Day-Date, featuring a larger case size and some enhanced technical specifications. As the name suggests, the 40 refers to the diameter of the case, measuring 40 millimeters. This increased size provides a more substantial presence on the wrist compared to the Day-Date 36."
+  },
+  {
+    "img": "/IMG/ap-royal-oak.png",
+    "title": "Audemars Piguet - Royal Oak (Gold)",
+    "price": "$110,000",
+    "description": "The 18-carat white gold Royal Oak Perpetual Calendar is illuminated by a vivid purple Grande Tapisserie dial and a bezel set with baguette-cut diamonds."
+  },
+  {
+    "img": "/IMG/patek-philippe-twenty-4.png",
+    "title": "Patek Philippe - Twenty 4",
+    "price": "$100,800",
+    "description": "Patek Philippe has launched a brand new self-winding mechanical ladies’ watch, designed to set the pace of life in style for the modern, active woman. A new embodiment of feminine elegance, the Twenty~4 Automatic is the first model in the collection to feature a round case."
+  },
+  {
+    "img": "/IMG/rolex_gmt_master_ii.png",
+    "title": "Rolex GMT Master II",
+    "price": "$29,900",
+    "description": "The Oyster Perpetual GMT-Master II in Oystersteel and yellow gold with a black dial and a Jubilee bracelet. This model features a black dial and a two-color Cerachrom bezel insert in grey and black ceramic."
+  }
+]

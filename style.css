@@ -1,0 +1,456 @@
+body {
+  background: black;
+  height: 100%;
+}
+
+.logo img {
+  width: 15vw;
+  height: 10vh;
+}
+
+.header {
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  background: black;
+}
+
+/* /////// HOMEPG NAV /////// */
+.navbar {
+  background-color: black;
+  padding: 0;
+  align-items: center;
+}
+
+.navbar-list {
+  display: inline-block;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin: 25px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.navbar-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar-item a:hover {
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.6s;
+}
+
+/* /// PARALLAX /// */
+.parallax {
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/IMG/heroimage.jpeg");
+  background-size: cover;
+  background-position: center;
+  /*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+
+.slideshowHeader .slideshowTitle {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 10px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: gold;
+}
+
+.slideshowHeader .slideshowDesc {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* ///// SLIDESHOW ///// */
+.container {
+  max-width: 100%;
+  height: 100vh;
+  padding-top: 80px;
+}
+
+.swiper {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: darkgoldenrod;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: gold;
+}
+
+.slideshow-slide {
+  display: none;
+}
+
+.slideshow-slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* /////// END OF SLIDESHOW /////// */
+
+/* ///// Products Page /////*/
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product {
+  flex: 0 0 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 80%;
+  height: auto;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.product h3 {
+  color: #fff;
+  font-size: 7vh;
+}
+.product .price {
+  color: #fff;
+  font-size: 4.5vh;
+}
+
+.product .description {
+  color: #fff;
+  font-size: 2.5vh;
+}
+
+/* //// End of Products Page */
+
+/* /////// Contact Page /////// */
+.parallax-second {
+  text-align: center;
+  width: 100%;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/IMG/rollie.jpeg");
+  background-size: cover;
+  background-position: center;
+  /*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+
+.contactTitle {
+  display: inline-block;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: gold;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  /* display: flex;
+  width: 100%;
+  background-color: black;
+  box-shadow: 0 0 20px 0 #999;
+  position: fixed;
+  transform: translate(-50%, -50%); */
+}
+
+form .input-field {
+  width: 500px;
+  height: 40px;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  display: block;
+  border: 1px solid gold;
+  border-radius: 14px;
+}
+
+.textarea-field {
+  height: 150px;
+  margin-left: 5%;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.btn {
+  background-color: black;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.6s;
+}
+
+/* /// End of Contact Page */
+
+/* ///// Footer ///// */
+.footer {
+  bottom: 0%;
+  padding: 30px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 60px;
+  height: 80px;
+  padding-left: 105px;
+  justify-content: center;
+}
+
+.footer .footer-navbar {
+  margin-top: 15px;
+  align-items: center;
+}
+
+.footer-navbar a {
+  color: white;
+  font-size: 18px;
+  margin: 1rem;
+  padding: 0;
+  transition: color 0.2s ease-in-out;
+}
+.footer-navbar a:hover {
+  color: gold;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  transition: color 0.2s ease-in-out;
+}
+.social-media a:hover {
+  color: gold;
+}
+.social-media i {
+  font-size: 20px;
+}
+
+/* ////////// MEDIA QUERIES ////////// */
+/* Small devices (portrait phones) */
+@media only screen and (max-width: 576px) {
+  /* Styles for small devices */
+  .header {
+    margin-left: 0;
+  }
+
+  contact-box {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 0 20px 0 #999;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+  }
+
+  form .input-field {
+    width: 500px;
+    height: 40px;
+    margin-left: 0;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    border: 1px solid gold;
+    border-radius: 14px;
+  }
+
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+  }
+}
+
+/* Medium devices (landscape phones) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  /* Styles for medium devices */
+  .header {
+    margin: 0;
+  }
+
+  contact-box {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 0 20px 0 #999;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+  }
+
+  form .input-field {
+    width: 500px;
+    height: 40px;
+    margin-left: 5%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    border: 1px solid gold;
+    border-radius: 14px;
+  }
+
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+  }
+}
+
+/* Large devices (tablets) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* Styles for large devices */
+  .header {
+    margin: 0;
+  }
+
+  contact-box {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 0 20px 0 #999;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+  }
+
+  form .input-field {
+    width: 500px;
+    height: 40px;
+    margin-left: 10%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    border: 1px solid gold;
+    border-radius: 14px;
+  }
+
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+  }
+}
+
+/* Extra-large devices (desktops) */
+@media only screen and (min-width: 993px) {
+  /* Styles for extra-large devices */
+  .header {
+    margin: 0;
+  }
+
+  contact-box {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 0 20px 0 #999;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+  }
+
+  form .input-field {
+    width: 500px;
+    height: 40px;
+    margin-left: 35%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    border: 1px solid gold;
+    border-radius: 14px;
+  }
+
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+  }
+}
